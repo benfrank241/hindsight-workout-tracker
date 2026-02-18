@@ -96,7 +96,7 @@ def ask_insight(query: str) -> str:
         budget="mid",
         tags=["workout"],
     )
-    return response.answer
+    return response.text
 
 
 def save_completed_plan(plan: WorkoutPlan, completed: dict[int, bool], actual_weights: dict[int, str]) -> None:
