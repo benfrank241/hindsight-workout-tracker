@@ -1,0 +1,12 @@
+[project]
+name = "hindsight-workout-tracker"
+version = "0.1.0"
+description = "Mobile-friendly Streamlit workout tracker with Hindsight memory"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.31.0",
+    "hindsight-client>=0.4.0",
+    "openai>=1.0.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
